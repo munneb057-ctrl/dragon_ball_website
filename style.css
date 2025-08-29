@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: orange;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+button {
+  background: orange;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}body {
+  background: black;
+  color: orange;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  text-shadow: 0 0 20px yellow, 0 0 40px red;
+}
+
+.whatif-box {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: yellow;
+  animation: aura 1.5s infinite alternate;
+}
+
+@keyframes aura {
+  from { text-shadow: 0 0 10px yellow; }
+  to { text-shadow: 0 0 30px red, 0 0 60px orange; }
+}body {
+  background: black;
+  color: orange;
+  font-family: 'Saiyan Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  text-shadow: 0 0 20px yellow, 0 0 40px red;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin: 10px;
+  font-size: 1em;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: orange;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 0 0 10px cyan, 0 0 20px blue;
+}@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
